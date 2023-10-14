@@ -1,0 +1,7 @@
+So what we are doing in the question is that we create two stacks and two node pointers pointin got indivisual tree nodes
+now for the while loop we check the condition of atleast either of the stack to not be empty or either of the pointer to not be null at least
+in the first while loop inside the while loop we check of either the pointere are not NULL
+which ever pointer is not NULL we will push the node into the stack and traverse on the left branch 
+now we have a if condition to check if both the stack are not empty
+now we pop the first elements from the stack and check if they are equal if they are equal they are pushes=d inside the vector we will return and we traverse both nodes to right
+if they are not equal the smaller nodes we will traverse to the right and will push the bigger node back in the stack
