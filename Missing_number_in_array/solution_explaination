@@ -1,0 +1,5 @@
+in the question we have to find the missing number in an array having elemets from 1 to N
+so we will find the sum of all elements in an array
+then we know that if the numbers are continous we can use formula of ap to find the expected sum which is n(1+n)/2
+we put 1 in the formula because the smallest value is 1.
+then we return the difference between the numbers which is the missing element
