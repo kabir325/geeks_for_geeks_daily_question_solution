@@ -42,3 +42,8 @@ else:
 
 # Print or use the content_string
 print(content_string)
+
+
+import github_interaction
+
+github_interaction.create_folder_and_add_file()
