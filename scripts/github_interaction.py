@@ -1,14 +1,14 @@
 import requests
 
 # Define your repository information
-owner = "your_username"
-repo = "your_repository"
+owner = "kabir325"
+repo = "geeks_for_geeks_question_solution"
 folder_name = "new_folder"
 file_name = "new_file.txt"
 file_content = "Hello, this is the content of the new file."
 
 # Set your Personal Access Token (PAT)
-token = "your_personal_access_token"
+token = "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"
 
 # Define API endpoints
 base_url = f"https://api.github.com/repos/{owner}/{repo}"
