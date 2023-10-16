@@ -24,7 +24,7 @@ jobs:
           pip install selenium beautifulsoup4
 
       - name: Execute Python Script
-        run: python scripts/web_scraper.py
+        run: python main/scripts/web_scraper.py
 
       - name: Create Folder and File
         run: |
