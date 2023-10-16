@@ -21,7 +21,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-          pip install selenium beautifulsoup4
+          pip install selenium beautifulsoup4 requests
 
       - name: Execute Python Script
         run: python main/scripts/web_scraper.py
