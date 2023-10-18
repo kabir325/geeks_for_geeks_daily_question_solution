@@ -24,7 +24,7 @@ jobs:
           pip install selenium beautifulsoup4 requests
 
       - name: Execute Python Script
-        run: python $GITHUB_WORKSPACE/geeks_for_geeks_question_solution/scripts/web_scraper.py
+        run: python web_scraper.py
 
       - name: Create Folder and File
         run: |
