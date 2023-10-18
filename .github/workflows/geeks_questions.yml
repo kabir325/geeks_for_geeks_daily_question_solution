@@ -1,4 +1,4 @@
-name: Create Folder and File
+name: Create FOLDER and FILE
 
 on:
   push:
