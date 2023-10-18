@@ -16,7 +16,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.10' # Use the appropriate Python version
+          python-version: '3.x' # Use the appropriate Python version
 
       - name: Install Dependencies
         run: |
@@ -24,7 +24,7 @@ jobs:
           pip install selenium beautifulsoup4 requests
 
       - name: Execute Python Script
-        run: python web_scraper.py
+        run: python main/scripts/web_scraper.py
 
       - name: Create Folder and File
         run: |
