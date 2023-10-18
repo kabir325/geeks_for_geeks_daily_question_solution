@@ -26,13 +26,10 @@ jobs:
       - name: Execute Python Script
         run: python web_scraper.py
 
-      - name: Create Folder and File
+      - name: Create Folder
         run: |
-          for /f %%i in ('python scripts/web_scraper.py') do (
-            md "%%~ni" 2>nul
-            echo. > "%%~ni/%%~nxi.txt"
-            echo "%%~ni/%%~nxi.txt"
-          )
+          mkdir my_folder
+          echo "Folder created successfully"
 
       - name: Commit and Push Changes
         run: |
